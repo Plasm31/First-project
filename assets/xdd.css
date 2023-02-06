@@ -1,0 +1,305 @@
+body {
+    margin: 0;
+    background-color: #1F2531;
+    color: #fff;
+    font-style: Georgia, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+main {
+    margin-top: 250px;
+}
+
+.header__logo {
+    padding: 40px 25px;
+    background-color: #D06365;
+    position: absolute;
+    text-align: center;
+    font-size: 13px;
+    border-radius: 0px 0px 17px 17px;
+}
+
+.logo__title {
+    font-size: 42px;
+}
+
+.nav:not(.nav__link) {
+    text-align: right;
+}
+
+.nav__divider {
+    display: inline;
+    border: 1px solid #fff;
+    opacity: 0.33;
+}
+
+.header__divider {
+    border-bottom: 1px solid #636973;
+    margin: 2px 0;
+    clear: right;
+}
+
+.nav__link {
+    display: inline-block;
+    margin: 0px 20px;
+    position: relative;
+    font-size: 14px;
+    padding: 45px 0;
+
+    color: #fff;
+    text-decoration: none;
+    opacity: 0.5;
+
+    transition: .1 linear;
+}
+
+.nav__link:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    top: 0;
+
+    background-color: #D06365;
+    opacity: 0;
+
+    transition: opacity .1s linear;
+}
+
+.nav__link:hover,
+.nav__link:hover:before {
+    opacity: 1;
+}
+
+
+
+.main__title {
+    font-size: 54px;
+    font-weight: lighter;
+    margin-top: 285px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #D06365;
+}
+
+.app-store {
+    text-align: center;
+    background-color: #060B15;
+    position: absolute;
+    padding: 9px 14px 9px 70px;
+    border-radius: 10px;
+    margin: 0;
+}
+
+.main__phone {
+    position: absolute;
+    left: 20px;
+    height: 50px;
+}
+
+.main__gadgets {
+    position: absolute;
+    right: 200px;
+    top: 23%;
+    width: 420px;
+}
+
+.main__white {
+    background-color: white;
+    width: 940px;
+    margin: 160px 0;
+    border-radius: 25px;
+    padding: 25px 10px;
+    
+}
+
+.feature {
+    text-align: center;
+    background-color: #D06365;
+    max-width: 290px;
+    max-height: 290px;
+    padding: 38px;
+    margin: 10px;
+    border-radius: 50%;
+    border: 15px solid #E3E3E3;
+    
+    display: inline-block;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+.feature__text {
+    line-height: normal;
+}
+
+.btitle {
+    color: #999;
+    line-height: normal;
+    display: inline-block;
+    position: absolute;
+}
+
+.btitle__logo {
+    background-color: #2F2F2F;
+    position: inherit;
+    padding: 8px 3px;
+    color: rgb(200, 200, 200);
+}
+
+.btitle h4 {
+    position: relative;
+    left:25%;
+    margin: 8px 0;
+    
+}
+
+.btitle__text {
+    font-size: 13px;
+    font-weight: 100;
+}
+
+.one {
+    top: 660px;
+    right: 460px;
+}
+
+.two {
+    top: 660px;
+    right: 240px;
+}
+
+.three {
+    top: 780px;
+    right: 460px;
+}
+
+.four {
+    top: 780px;
+    right: 240px;
+}
+.five {
+    top: 900px;
+    right: 460px;
+}
+
+.six {
+    top: 900px;
+    right: 240px;
+}
+
+.seven {
+    top: 1020px;
+    right: 460px;
+}
+
+.eight {
+    top: 1020px;
+    right: 240px;
+}
+
+.mailing-list {
+    display: inline;
+}
+
+.hr {
+    border: none;
+    background-color: black;
+    height: 1px;
+    opacity: 0.2;
+}
+
+.mailing-list__subscribe {
+    color: rgb(115, 115, 115);
+    position: relative;
+    left: 0%;
+}
+
+.subscribe__p {
+    position: inherit;
+    margin: 0;
+    left: 50px;
+}
+
+.subscribe__h {
+    position: inherit;
+    margin: 0;
+    left: 100px;
+}
+
+.mailing-list__email {
+    position: absolute;
+    right: 275px;
+    top: 1165px;
+    
+}
+
+.submit {
+    color: #D06365;
+    background: linear-gradient(
+        white,
+        #DBDBDB
+    );
+    border-radius: 5px;
+    
+    padding: 5px 15px;
+}
+
+.email {
+    color: #D06365;
+    background: linear-gradient(
+        white,
+        #DBDBDB
+    );
+    border-radius: 5px;
+    
+    padding: 5px 15px;
+    margin: 0 15px;
+    
+}
+
+footer {
+    opacity: 0.5;
+    margin: -125px 0 0 0;
+
+}
+
+.footer__hr {
+    color: #636973;
+    opacity: 0.2;
+}
+
+#p__right {
+    text-align: right;
+}
